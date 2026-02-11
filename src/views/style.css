@@ -1,0 +1,161 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f4fbfa;
+  color: #033;
+}
+
+/* HERO SECTION */
+.hero {
+  background: linear-gradient(135deg, #00c9a7, #00b4d8);
+  color: white;
+  text-align: center;
+  padding: 90px 20px;
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  opacity: 0.95;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  margin: 12px;
+  padding: 14px 34px;
+  background: #e6fffa;
+  color: #007f7f;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #c8f7ef;
+  transform: translateY(-2px);
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid #e6fffa;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  background: white;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.navbar a {
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #008080;
+}
+
+.navbar a:hover {
+  color: #00b4d8;
+}
+
+/* DESTINATIONS */
+.destinations {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.destinations h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #006d77;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 240px;
+  padding: 35px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 15px 30px rgba(0, 150, 136, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.card span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* CARD COLOR VARIANTS */
+.green {
+  background: linear-gradient(135deg, #2ec4b6, #90dbf4);
+}
+
+.blue {
+  background: linear-gradient(135deg, #48cae4, #0077b6);
+}
+
+.teal {
+  background: linear-gradient(135deg, #00b4d8, #0096c7);
+}
+
+/* SYSTEM LINKS */
+.system-links {
+  padding: 70px 20px;
+  text-align: center;
+  background: #e0f7f4;
+}
+
+.system-links h2 {
+  color: #006d77;
+}
+
+.system-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.system-links li {
+  margin: 14px 0;
+  font-size: 18px;
+}
+
+.system-links a {
+  color: #0077b6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+  background: #023047;
+  color: #a8dadc;
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+}
+
