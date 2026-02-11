@@ -1,12 +1,12 @@
 {
-  "name": "apprunner-demo",
+  "name": "cloud-devops-learning",
   "version": "1.0.0",
-  "description": "Robust Node.js app for AWS App Runner",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/server.js"
   },
   "dependencies": {
-    "express": "^4.22.1"
+    "express": "^4.19.2"
   }
 }
+
