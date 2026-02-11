@@ -1,17 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Cloud & DevOps Learning</title>
+  <meta charset="UTF-8" />
+  <title>TravelSphere</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>🚀 Cloud & DevOps Learning Platform</h1>
+
+<!-- HERO SECTION -->
+<header class="hero">
+  <h1>🌍 TravelSphere</h1>
+  <p>Discover beautiful destinations around the world</p>
+  <div class="nav-buttons">
+    <a href="#destinations" class="btn">Explore Destinations</a>
+    <a href="/api/destinations" class="btn outline">Destinations API</a>
+  </div>
+</header>
+
+<!-- NAVIGATION BAR -->
+<nav class="navbar">
+  <a href="/">Home</a>
+  <a href="#destinations">Destinations</a>
+  <a href="/api/destinations">API</a>
+  <a href="/health">Health</a>
+</nav>
+
+<!-- DESTINATIONS SECTION -->
+<section id="destinations" class="destinations">
+  <h2>Popular Destinations</h2>
+
+  <div class="cards">
+    <div class="card orange">
+      <h3>Bali</h3>
+      <p>Indonesia</p>
+      <span>$799</span>
+    </div>
+
+    <div class="card purple">
+      <h3>Paris</h3>
+      <p>France</p>
+      <span>$999</span>
+    </div>
+
+    <div class="card blue">
+      <h3>Maldives</h3>
+      <p>Maldives</p>
+      <span>$1299</span>
+    </div>
+  </div>
+</section>
+
+<!-- SYSTEM LINKS (VERY IMPORTANT FOR DEVOPS DEMOS) -->
+<section class="system-links">
+  <h2>System Endpoints</h2>
+
   <ul>
-    <li>AWS</li>
-    <li>Docker</li>
-    <li>Kubernetes</li>
-    <li>Terraform</li>
-    <li>CI/CD</li>
+    <li>
+      🔗 <a href="/api/destinations" target="_blank">Destinations API</a>
+    </li>
+    <li>
+      ❤️ <a href="/health" target="_blank">Health Check</a>
+    </li>
+    <li>
+      📦 <a href="/ui/index.html" target="_blank">Static UI Path</a>
+    </li>
   </ul>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 TravelSphere</p>
+  <p>Deployed on AWS App Runner • CI/CD with GitHub Actions</p>
+</footer>
+
 </body>
 </html>
 

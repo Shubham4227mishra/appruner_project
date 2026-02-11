@@ -1,12 +1,8 @@
-const express = require('express');
-const router = express.Router();
+const router = require('express').Router();
+const path = require('path');
 
 router.get('/', (req, res) => {
-  res.json({
-    app: 'Cloud & DevOps Learning Platform',
-    environment: process.env.NODE_ENV || 'dev',
-    version: process.env.APP_VERSION || '1.0.0'
-  });
+  res.redirect('/ui/index.html');
 });
 
 module.exports = router;
