@@ -1,0 +1,13 @@
+{
+  "name": "apprunner-demo",
+  "version": "1.0.0",
+  "description": "Robust Node.js app for AWS App Runner",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
+
