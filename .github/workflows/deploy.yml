@@ -13,7 +13,7 @@ permissions:
 env:
   AWS_REGION: ap-south-1
   ECR_REPOSITORY: apprunner_demo
-  APP_RUNNER_SERVICE_ARN: arn:aws:apprunner:ap-south-1:390503781838:service/app_runner_service_demo/028b7b7a212c4487953e5157c86fb768
+  APP_RUNNER_SERVICE_ARN: arn:aws:apprunner:ap-south-1:390503781838:service/dswdwf/49e50be6722d4f119d5495cd86f31029
   IAM_ROLE_ARN: arn:aws:iam::390503781838:role/github_oidc_for_apprunner_to
 
 jobs:
